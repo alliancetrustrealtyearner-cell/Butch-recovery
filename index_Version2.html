@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BTC Recovery & Tracking Dashboard — GEM</title>
+  <meta name="description" content="BTC Recovery & Tracking Dashboard — Powered by GEM Digital Asset Recovery & Compliance. Forensic tracing, compliance simulation, and case management.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/gem-logo.svg" width="52" alt="GEM Logo"/>
+      <img src="assets/bitcoin-logo.svg" width="52" alt="Bitcoin Logo"/>
+      <div>
+        <h1>BTC Recovery & Tracking Dashboard</h1>
+        <h2>Powered by GEM — Digital Asset Recovery & Compliance</h2>
+        <div>
+          <span class="badge">🔒 KYC/AML Compliant</span>
+          <span class="badge">🛡️ GDPR Data Protection</span>
+          <span class="badge">📜 Audit Trail Enabled</span>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="grid">
+        <div class="card">
+          <h3>Recovery Phase — Cash App Screenshot <span class="pill lock">🚧 Locked</span></h3>
+          <p>Marked for tracking. Requires login to proceed via Recovery Portal.</p>
+          <a class="btn primary" href="https://d5c428cd-8075-4caf-90f0-c548989ce06b-00-1l2b22r2zdduc.riker.replit.dev/" target="_blank">Open Recovery Portal</a>
+        </div>
+
+        <div class="card">
+          <h3>Recovery Phase — Sundew Scam <span class="pill lock">🚧 Locked</span></h3>
+          <p>Marked for tracking. Requires login to proceed via Recovery Portal.</p>
+          <a class="btn primary" href="https://d5c428cd-8075-4caf-90f0-c548989ce06b-00-1l2b22r2zdduc.riker.replit.dev/" target="_blank">Open Recovery Portal</a>
+        </div>
+
+        <div class="card">
+          <h3>$300 BTC Wallet Fraud Recovery <span class="pill active">🟢 Active</span></h3>
+          <p>Live investigative case demonstrating tracing and compliance simulation.</p>
+          <a class="btn gold" href="#" id="launchDashboard">Launch Dashboard</a>
+          <button class="btn secondary" id="simulateWithdraw">Try Withdraw (Simulated)</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <h3>Case Snapshot</h3>
+        <table class="table">
+          <thead>
+            <tr><th>Transaction Type</th><th>Approx. BTC Amount</th><th>Notes</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>BTC Sent / Withdrawal</td><td>0.75 BTC</td><td>Combined estimate from multiple sends shown in screenshots</td></tr>
+            <tr><td>BTC Purchased / Received</td><td>1.10 BTC</td><td>Combined estimate from purchases/deposits</td></tr>
+            <tr><td><strong>Net Movement</strong></td><td><strong>+0.35 BTC</strong></td><td>Receipts minus withdrawals</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> GEM — Digital Asset Recovery & Compliance.
+    </footer>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal-backdrop">
+    <div class="modal">
+      <h3>Withdrawal Pending — Compliance Review Required</h3>
+      <p>This withdrawal request is temporarily on hold pending compliance review.</p>
+      <p>Case ID: <strong>GEM-0001</strong> — Audit log entry created.</p>
+      <button class="btn secondary" id="closeModal">Close</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
